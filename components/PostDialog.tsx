@@ -14,7 +14,7 @@ export default function PostDialog({ post }: PostDialogProps) {
 
   return (
     <Dialog defaultOpen onOpenChange={() => router.back()}>
-    <DialogContent className="sm:max-w-[425px] md:max-w-[600px] lg:max-w-[700px]">
+    <DialogContent className="rounded-2xl sm:max-w-[425px] md:max-w-[600px] lg:max-w-[700px]">
       <DialogTitle className="text-2xl font-bold mb-4">{post.title}</DialogTitle>
       <div className="space-y-4">
         <div className="aspect-video relative overflow-hidden rounded-lg">
